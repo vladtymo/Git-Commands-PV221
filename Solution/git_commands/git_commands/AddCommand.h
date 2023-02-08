@@ -1,10 +1,10 @@
 #pragma once
 #include "GitCommand.h"
 
-class StatusCommand : public GitCommand
+class AddCommand : public GitCommand
 {
 public:
-	StatusCommand() : GitCommand("Add") { }
+	AddCommand() : GitCommand("Add") { }
 
 	void ShowDescription() const override
 	{
