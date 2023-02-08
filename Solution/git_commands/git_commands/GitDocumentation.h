@@ -26,6 +26,7 @@ public:
         commands.push_back(new CloneCommand());
         commands.push_back(new StatusCommand());
         commands.push_back(new PushCommand());
+        commands.push_back(new CommitCommand());
         //...
     }
     ~GitDocumentation()
