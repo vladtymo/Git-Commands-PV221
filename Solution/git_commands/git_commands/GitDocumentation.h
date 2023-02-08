@@ -6,6 +6,7 @@
 #include "RevertCommand.h"
 #include "StatusCommand.h"
 #include "PushCommand.h"
+#include "AddCommand.h"
 #include "ResetCommand.h"
 #include "CommitCommand.h"
 
@@ -29,6 +30,7 @@ public:
         commands.push_back(new RevertCommand());
         commands.push_back(new StatusCommand());
         commands.push_back(new PushCommand());
+        commands.push_back(new AddCommand());
         commands.push_back(new ResetCommand());
         commands.push_back(new CommitCommand());
         //...
