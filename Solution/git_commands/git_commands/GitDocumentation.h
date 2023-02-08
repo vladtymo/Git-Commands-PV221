@@ -5,6 +5,7 @@
 #include "CloneCommand.h"
 #include "StatusCommand.h"
 #include "PushCommand.h"
+#include "AddCommand.h"
 
 using std::cin;
 using std::vector;
