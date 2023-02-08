@@ -133,6 +133,7 @@
     <ClInclude Include="CloneCommand.h" />
     <ClInclude Include="GitCommand.h" />
     <ClInclude Include="GitDocumentation.h" />
+    <ClInclude Include="StatusCommand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
