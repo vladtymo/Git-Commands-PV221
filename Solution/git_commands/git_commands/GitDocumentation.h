@@ -3,7 +3,7 @@
 #include <conio.h>
 #include "GitCommand.h"
 #include "CloneCommand.h"
-#include "ResetCommand.h"
+#include "RevertCommand.h"
 using std::cin;
 using std::vector;
 
@@ -21,7 +21,7 @@ public:
     GitDocumentation()
     {
         commands.push_back(new CloneCommand());
-        commands.push_back(new ResetCommand());
+        commands.push_back(new RevertCommand());
         //...
     }
     ~GitDocumentation()
