@@ -29,6 +29,7 @@
     <ClInclude Include="GitDocumentation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StatusCommand.h">
     <ClInclude Include="PushCommand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
