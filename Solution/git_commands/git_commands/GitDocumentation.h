@@ -3,6 +3,8 @@
 #include <conio.h>
 #include "GitCommand.h"
 #include "CloneCommand.h"
+#include "PushCommand.h"
+
 using std::cin;
 using std::vector;
 
@@ -20,6 +22,7 @@ public:
     GitDocumentation()
     {
         commands.push_back(new CloneCommand());
+        commands.push_back(new PushCommand());
         //...
     }
     ~GitDocumentation()
