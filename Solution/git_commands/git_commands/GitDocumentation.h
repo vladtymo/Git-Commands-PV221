@@ -3,9 +3,12 @@
 #include <conio.h>
 #include "GitCommand.h"
 #include "CloneCommand.h"
+#include "RevertCommand.h"
 #include "StatusCommand.h"
 #include "PushCommand.h"
 #include "AddCommand.h"
+#include "ResetCommand.h"
+#include "CommitCommand.h"
 
 using std::cin;
 using std::vector;
@@ -24,9 +27,12 @@ public:
     GitDocumentation()
     {
         commands.push_back(new CloneCommand());
+        commands.push_back(new RevertCommand());
         commands.push_back(new StatusCommand());
         commands.push_back(new PushCommand());
         commands.push_back(new AddCommand());
+        commands.push_back(new ResetCommand());
+        commands.push_back(new CommitCommand());
         //...
     }
     ~GitDocumentation()

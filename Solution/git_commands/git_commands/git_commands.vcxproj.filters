@@ -10,5 +10,8 @@
     <ClInclude Include="StatusCommand.h" />
     <ClInclude Include="PushCommand.h" />
     <ClInclude Include="AddCommand.h" />
+    <ClInclude Include="CommitCommand.h" />
+    <ClInclude Include="RevertCommand.h" />
+    <ClInclude Include="ResetCommand.h" />
   </ItemGroup>
 </Project>
