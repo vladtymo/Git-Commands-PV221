@@ -1,8 +1,6 @@
 ﻿#pragma once
 #include "GitCommand.h"
 
-
-		
 class RevertCommand : public GitCommand
 {
 public:
@@ -11,8 +9,8 @@ public:
 	void ShowDescription() const override
 	{
 		cout << "The git revert command is a forward - moving undo operation that offers a safe method of undoing changes.\n"
-		<< "Instead of deleting or orphaning commits in the commit history, a revert will create a new commit that inverses the changes specified.\n"
-		<< "Git revert is a safer alternative to git reset in regards to losing work.\n"
+			<< "Instead of deleting or orphaning commits in the commit history, a revert will create a new commit that inverses the changes specified.\n"
+			<< "Git revert is a safer alternative to git reset in regards to losing work.\n";
 	}
 
 	void ShowUsageExamples() const override
@@ -30,6 +28,3 @@ public:
 		<< "\t-for undoing changes to a repository's commit history.";
 	}
 };
-	
-
-	
