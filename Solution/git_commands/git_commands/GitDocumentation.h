@@ -4,6 +4,7 @@
 #include "GitCommand.h"
 #include "CloneCommand.h"
 #include "PushCommand.h"
+#include "ResetCommand.h"
 
 using std::cin;
 using std::vector;
@@ -23,6 +24,7 @@ public:
     {
         commands.push_back(new CloneCommand());
         commands.push_back(new PushCommand());
+        commands.push_back(new ResetCommand());
         //...
     }
     ~GitDocumentation()

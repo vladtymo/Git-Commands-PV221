@@ -32,5 +32,8 @@
     <ClInclude Include="PushCommand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ResetCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
