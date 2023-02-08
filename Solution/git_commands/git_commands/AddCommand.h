@@ -4,7 +4,7 @@
 class AddCommand : public GitCommand
 {
 public:
-	AddCommand() : GitCommand("Add") { }
+	AddCommand() : GitCommand("add") { }
 
 	void ShowDescription() const override
 	{
