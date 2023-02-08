@@ -5,6 +5,7 @@
 #include "CloneCommand.h"
 #include "StatusCommand.h"
 #include "PushCommand.h"
+#include "ResetCommand.h"
 #include "CommitCommand.h"
 
 using std::cin;
@@ -26,6 +27,7 @@ public:
         commands.push_back(new CloneCommand());
         commands.push_back(new StatusCommand());
         commands.push_back(new PushCommand());
+        commands.push_back(new ResetCommand());
         commands.push_back(new CommitCommand());
         //...
     }
