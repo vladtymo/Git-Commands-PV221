@@ -134,6 +134,7 @@
     <ClInclude Include="CommitCommand.h" />
     <ClInclude Include="GitCommand.h" />
     <ClInclude Include="GitDocumentation.h" />
+    <ClInclude Include="RevertCommand.h" />
     <ClInclude Include="StatusCommand.h" />
     <ClInclude Include="PushCommand.h" />
     <ClInclude Include="ResetCommand.h" />
