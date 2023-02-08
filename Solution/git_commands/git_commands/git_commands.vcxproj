@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -131,8 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CloneCommand.h" />
+    <ClInclude Include="CommitCommand.h" />
     <ClInclude Include="GitCommand.h" />
     <ClInclude Include="GitDocumentation.h" />
+    <ClInclude Include="StatusCommand.h" />
     <ClInclude Include="PushCommand.h" />
     <ClInclude Include="ResetCommand.h" />
   </ItemGroup>
